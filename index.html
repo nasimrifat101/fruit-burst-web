@@ -46,7 +46,7 @@
 <body>
 
     <!-- header section -->
-    <header class="container mx-auto my-10 font-lato">
+ <header class="container mx-auto my-10 font-lato">
         <!-- nav bar -->
         <nav>
           <div class="navbar bg-[#F85559] text-white rounded-full">
@@ -78,7 +78,6 @@
         </nav>
         <!-- landing section -->
           <div class="my-12">
-            
              <div class="carousel w-full rounded-xl">
               <!-- carosel one -->
                <div id="slide1" class="carousel-item relative w-full">
@@ -150,13 +149,136 @@
                            </div>
              </div>
           </div>
-    </header>
+          <!-- bonus relative sec -->
+          <div>
 
-            
-        
+          </div>
+        </header>
     <!-- main section -->
-    <main>
+    <main class="container mx-auto font-lato">
+      <!-- deal of the day sec -->
+      <div class="my-12">
+        <!-- flex-con -->
+        <div class="flex justify-between items-center">
+          <!-- text -->
+          <div class="space-y-3">
+            <h3 class="text-4xl font-bold">Deal of the day</h3>
+            <p class="text-sm">Contrary to popular belief, is not simply random text. It has roots in a <br> piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <!--  -->
+          <!-- time -->
+          <div>
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:15;"></span>:
+                </span>
+                days
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:10;"></span>:
+                </span>
+                hours
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:24;"></span>:
+                </span>
+                min
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:31;"></span>
+                </span>
+                sec 
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <!-- cards section -->
+        <div class="my-8 flex justify-between">
+          <!-- 1st card -->
+          <div class="card w-64 bg-base-100 shadow-md">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit6.png" alt="Fruit" class="rounded-xl w-17" />
+            </figure>
+            <div class="card-body items-center text- space-y-3">
+              <h2 class="card-title font-extrabold">12.90$ - 18.85$</h2>
+              <hr class="h-0.4 bg-gray-400 border- w-44">
+              <p>Apples</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a href="#" class="text-amber-400 font-semibold">Details</a>
+            </div>
+          </div>
+          <!-- 2st card -->
+          <div class="card w-64 bg-base-100 shadow-md">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit7.png" alt="Fruit" class="rounded-xl w-17" />
+            </figure>
+            <div class="card-body items-center text- space-y-3">
+              <h2 class="card-title font-extrabold">12.90$ - 18.85$</h2>
+              <hr class="h-0.4 bg-gray-400 border- w-44">
+              <p>Oranges</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a href="#" class="text-amber-400 font-semibold">Details</a>
+            </div>
+          </div>
+          <!-- 3st card -->
+          <div class="card w-64 bg-base-100 shadow-md">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit8.png" alt="Fruit" class="rounded-xl w-17" />
+            </figure>
+            <div class="card-body items-center text- space-y-3">
+              <h2 class="card-title font-extrabold">12.90$ - 18.85$</h2>
+              <hr class="h-0.4 bg-gray-400 border- w-44">
+              <p>Red Dragon</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a href="#" class="text-amber-400 font-semibold">Details</a>
+            </div>
+          </div>
+          <!-- 4st card -->
+          <div class="card w-64 bg-base-100 shadow-md">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit9.png" alt="Fruit" class="rounded-xl w-17" />
+            </figure>
+            <div class="card-body items-center text- space-y-3">
+              <h2 class="card-title font-extrabold">12.90$ - 18.85$</h2>
+              <hr class="h-0.4 bg-gray-400 border- w-44">
+              <p>Banana</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a href="#" class="text-amber-400 font-semibold">Details</a>
+            </div>
+          </div>
+        </div>
 
+      </div>
+      
     </main>
 
     <!-- footer section -->
